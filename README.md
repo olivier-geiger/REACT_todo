@@ -12,6 +12,4 @@ Elle vous permettra d'installer toutes les dépendances nécessaires au bon fonc
 
 Cette commande lancera votre serveur de développement. Vous pourrez ainsi travailler sur votre projet en allant sur : [http://localhost:3000](http://localhost:3000).
 
-## Un problème ?
-
-# todo
+# todo list en React
