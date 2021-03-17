@@ -63,6 +63,7 @@
   align-items: center;
   font-size: 1em;
   margin-left: 15px;
+  outline: none;
 }
 
 .App .add button svg {
