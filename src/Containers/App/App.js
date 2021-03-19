@@ -74,6 +74,10 @@ function App() {
       });
   }
 
+  // on change une todo s'il y a une erreur de frappe
+  const changeClikedHandler = index => {
+  }
+
   // on récupère le formulaire
   const submitFormHandler = e => {
     // on arrête l'envoi du formulaire
@@ -117,6 +121,7 @@ function App() {
       content={task.content}
       removeClicked={() => removeClickedHandler(index)}
       doneClicked={() => doneClikedHandler(index)}
+      //pencilClicked={() => changeClikedHandler(index)}
     />
   ))
 
@@ -129,6 +134,7 @@ function App() {
         content={doneTask.content}
         removeClicked={() => removeClickedHandler(index)}
         doneClicked={() => doneClikedHandler(index)}
+        //pencilClicked={() => changeClikedHandler(index)}
       />
     ))
 
